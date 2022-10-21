@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Charset UTF-8 Used to be able to put emojis and not use images where possible --->
+    <meta charset="UTF-8" />
+    <!-- ViewPort used to get responsive behavior (meta argument introduced with HTML5)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- X-UA-Compatible used to, as the name says, say it's compatible the version said in content attribute-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Exercise 2 - HTML</title>
+  </head>
+  <body>
+    <a href="index.html">
+      <h1>Welcome To "Spotify dei poveri"</h1>
+    </a>
+    <p>
+      Because we don't have budget
+      <img src="/img/logospotify.png" height="16" />
+    </p>
+    <ul>
+      <li>
+        <p>
+          Author Profile Link:
+          <a href="https://soundcloud.com/lumix_music">LUMIX</a>
+        </p>
+      </li>
+      <li>
+        <p>
+          Vibe Check : ✔️
+        </p>
+      </li>
+    </ul>
+    <!-- 
+        Embeded Iframe from soundcloud
+        That means that the code for what appears there 
+        isn't actually part of our website but a stripped-down version 
+        of the song page
+      -->
+    <iframe
+      width="100%"
+      height="300"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348843000&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    ></iframe>
+    <div
+      style="
+        font-size: 10px;
+        color: #cccccc;
+        line-break: anywhere;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+          Garuda, Verdana, Tahoma, sans-serif;
+        font-weight: 100;
+      "
+    >
+      <a
+        href="https://soundcloud.com/lumix_music"
+        title="LUM!X"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;"
+        >LUM!X</a
+      >
+      ·
+      <a
+        href="https://soundcloud.com/lumix_music/alan-walker-all-falls-down-lumx-remixdownload-free"
+        title="Alan Walker - All Falls Down (LUM!X Remix)***DOWNLOAD FREE***"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;"
+        >Alan Walker - All Falls Down (LUM!X Remix)***DOWNLOAD FREE***</a
+      >
+    </div>
+    <!-- 
+      Table containing titles,artworks, authors and 
+      a link to a page with the same code desing 
+      but with an embeded soundcloud page of the song 
+    -->
+    <h1>Playlist</h1>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Song Title</th>
+        <th>Authors</th>
+        <th>Durata</th>
+        <th>Song Artwork</th>
+        <th>PLAY</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Dont Stop Me Now</td>
+        <td>Queen</td>
+        <td>3:29</td>
+        <td>
+          <img src="/img/track-1.png" alt="Song Artwork" height="50" />
+        </td>
+        <td>
+          <a href="/canzone1.html">⏯️</a>
+          ️
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>The Business</td>
+        <td>Tiesto</td>
+        <td>2:44</td>
+        <td>
+          <img src="/img/track-2.png" alt="Song Artwork" height="50" />
+        </td>
+        <td>
+          <a href="/canzone2.html">⏯️</a>
+          ️
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>All Falls Down Lumix REMIX</td>
+        <td>Alan Walker& Lumix</td>
+        <td>3:26</td>
+        <td>
+          <img src="/img/track-3.png" alt="Song Artwork" height="50" />
+        </td>
+        <td>
+          <a href="/canzone3.html">⏯️</a>
+        </td>
+      </tr>
+    </table>
+    <h1>FOTO DI GATTO</h1>
+    <img src="/img/cute-cat.jpg" />
+    <br />
+    <a href="index.html">Home</a>
+  </body>
+</html>
